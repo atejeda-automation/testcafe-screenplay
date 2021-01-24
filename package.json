@@ -4,8 +4,9 @@
   "description": "Project to show how implement the screenplay pattern with testcafe framework",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe \"edge --star-maximized --headless\" environment.js src/",
-    "test:no-headless": "testcafe firefox environment.js src/"
+    "test": "testcafe \"chrome --star-maximized --headless\" src/",
+    "test:no-headless": "testcafe \"chrome --star-maximized\" src/",
+    "allure": "allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report"
   },
   "keywords": [
     "automation",
@@ -15,10 +16,13 @@
   "author": "Alfred Tejeda",
   "license": "ISC",
   "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "allure-commandline": "^2.13.8",
     "dotenv": "^8.2.0",
     "eslint": "^7.18.0",
     "eslint-plugin-testcafe": "^0.2.1",
     "faker": "^5.1.0",
-    "testcafe": "^1.10.1"
+    "testcafe": "^1.10.1",
+    "testcafe-reporter-allure-expanded": "^1.1.0"
   }
 }
