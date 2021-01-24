@@ -3,6 +3,7 @@
 # TestCafé - Screenplay
 Proyecto de ejemplo dónde se trata implementar de una manera sencilla el patrón screenplay, utilizando TestCafé como framework de pruebas. 
 También se muestra como utilizar variables de entorno dejando valores por defecto en caso de no existir un archivo `.env` o variables no definidas.
+Por último, se usará [Allure](http://allure.qatools.ru/) como reporte. 
 
 ## Pre requisitos:
 1. Descargar e instalar [Node.js](https://nodejs.org/es/download/) V10 o superior.
@@ -27,6 +28,12 @@ npm test
 2. Ejecución sin el modo headless:
 ```sh
 npm run test:no-headless
+```
+
+## Reporte:
+Una vez ejecutadas las pruebas se creará el directorio `/allure`, para visualizar el reporte se debe de ejecutar el comando:
+```sh
+npm run allure
 ```
 
 ## Arquitectura:
