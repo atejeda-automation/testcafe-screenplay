@@ -54,5 +54,8 @@ Dentro de questions encontramos las clases y métodos que nos ayudan a realizar 
 ### tasks
 Dentro de este directorio encontramos las clases y métodos en las que definimos las tareas que se realizan a nivel de negocio.
 
+### tests
+Dentro de este directorio incluimos todos nuestros archivos de pruebas.
+
 ### ui
 Dentro de este directorio incluiremos los archivos en los que declaramos nuestros elementos.
