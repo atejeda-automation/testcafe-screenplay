@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe'
 
-export default new class LoginPage {
+export class LoginPage {
     constructor() {
         this.input = {
             username: Selector('#username'),

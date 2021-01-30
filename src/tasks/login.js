@@ -1,11 +1,12 @@
 import { t } from 'testcafe'
-import LoginPage from '../ui/login'
+import { LoginPage } from '../ui/login'
 
-export default new class LoginTask {
+export class LoginTask extends LoginPage {
+
     async login(username, password) {
         await t
-            .typeText(LoginPage.input.username, username)
-            .typeText(LoginPage.input.password, password)
-            .click(LoginPage.button.login)
+            .typeText(this.input.username, username)
+            .typeText(this.input.password, password)
+            .click(this.button.login)
     }
 }
