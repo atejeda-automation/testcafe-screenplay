@@ -7,7 +7,8 @@ Por último, se usará [Allure](http://allure.qatools.ru/) como reporte.
 
 ## Pre requisitos:
 1. Descargar e instalar [Node.js](https://nodejs.org/es/download/) V10 o superior.
-2. Opcional: Descargar e instalar [Git](https://git-scm.com/downloads).
+2. Descargar e instalar [Java JDK](https://www.oracle.com/technetwork/es/java/javase/downloads/index.html) (Se debe agregar java al PATH)
+3. Opcional: Descargar e instalar [Git](https://git-scm.com/downloads).
 
 ## Instalación:
 1. Descargar el .zip o clonar este proyecto: 
